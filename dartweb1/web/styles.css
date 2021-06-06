@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -9,6 +10,25 @@ html, body {
 }
 
 #output {
-  padding: 20px;
-  text-align: center;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+#aufgabe {
+  height: 25px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#aufgaben-liste {
+  margin: 25px 0 25px 0;
+}
+
+#aufgaben-liste div {
+  padding: 5px 0 5px 0;
+  border-bottom: dotted grey 1px;
+}
+
+#aufgaben-liste div span {
+  margin-left: 10px;
 }
